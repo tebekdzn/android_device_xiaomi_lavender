@@ -12,11 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common PixelExtended stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk) 
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-PEX_BUILD_TYPE := OFFICIAL
-PEX_MAINTAINER := Prashant
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
