@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Havoc stuff
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk) 
 TARGET_BOOT_ANIMATION_RES := 1080
-HAVOC_BUILD_TYPE := UNMINKAN
+HAVOC_BUILD_TYPE := Beta
 # WITH_GAPPS := true
 
 # Inherit from lavender device
